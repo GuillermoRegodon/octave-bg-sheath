@@ -1,6 +1,6 @@
 # octave-bg-sheath
 
-This is the basic code that I have used in my research in radial plasma sheath models. The model that I have developed is an extension of Allen-Boyd_Reynolds solution for the plasma sheath around a Langmuir probe, applied to a cylindrical Langmuir probe by Chen. The model was extended by Fernandez-Palop to include the ion temperature different from zero, but at that time the solution was only found for small enough ion temperature with respect to the electron temperature, which is the most frequent situation in cold plasmas. However, there was interest in obtaining a more general solution for several reasons:
+This is the basic code, developed in GNUOctave, that I have used in my research in radial plasma sheath models. The model that I have developed is an extension of Allen-Boyd_Reynolds solution for the plasma sheath around a Langmuir probe, applied to a cylindrical Langmuir probe by Chen. The model was extended by Fernandez-Palop to include the ion temperature different from zero, but at that time the solution was only found for small enough ion temperature with respect to the electron temperature, which is the most frequent situation in cold plasmas. However, there was interest in obtaining a more general solution for several reasons:
 
 *Electropositive plasmas have very few important applications, therefore negative ions should be included to model electronegative plasmas, which are much more important in industry.
 
