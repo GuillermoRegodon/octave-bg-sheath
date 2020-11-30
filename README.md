@@ -20,3 +20,12 @@ And it is also important in these experimental publications
 10.3390/app10175727
 
 More routines have been used, most of them to sweep over values and get data for plotting. These have not been included.
+
+
+In order to use this "package", run bg_makeglobals.m which will create all the variables that are required in the rest of the code, and some more that I have used in other code that I still have to revise (mainly comments and duplicates). Then bg_sheath.m without arguments which return S a matrix of the four columns, the distance to the axis, the potential, the electric field and the ion density (Check the articles for the definitions). Change the global variables to obtain different plots. bg_plotlimitcond.m prepares figure 1 to plot the returning arrays. Variable __config__warn=1 echos the intermediate warnings to follow the execution of the rutine. Variable __config__save saves the results in files. Othe r config do exist in bg_makeglobals.m. Recapitulating:
+
+1) run bg_makeglobals.m
+2) change global variables as needed
+3) run bg_sheath.m
+
+Routines that sweep over values may be used to obtain more plots, as in the articles.
